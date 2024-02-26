@@ -1,0 +1,607 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"29 ./ssd.h
+[; ;./ssd.h: 29: void init_ssd(void);
+[v _init_ssd `(v ~T0 @X0 0 ef ]
+"2629 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2629: extern volatile __bit PEIE __attribute__((address(0x5E)));
+[v _PEIE `Vb ~T0 @X0 0 e@94 ]
+"2902
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2902: extern volatile __bit TMR2ON __attribute__((address(0x92)));
+[v _TMR2ON `Vb ~T0 @X0 0 e@146 ]
+"2569
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2569: extern volatile __bit GIE __attribute__((address(0x5F)));
+[v _GIE `Vb ~T0 @X0 0 e@95 ]
+[p mainexit ]
+"11 ./main.h
+[; ;./main.h: 11: void init_timer2(void);
+[v _init_timer2 `(v ~T0 @X0 0 ef ]
+"28 ./digital_keypad.h
+[; ;./digital_keypad.h: 28: unsigned char read_digital_keypad(unsigned char mode);
+[v _read_digital_keypad `(uc ~T0 @X0 0 ef1`uc ]
+"31 ./ssd.h
+[; ;./ssd.h: 31: void display_mnt(unsigned char data[]);
+[v _display_mnt `(v ~T0 @X0 0 ef1`*uc ]
+"32
+[; ;./ssd.h: 32: void display_hour(unsigned char data[]);
+[v _display_hour `(v ~T0 @X0 0 ef1`*uc ]
+"30
+[; ;./ssd.h: 30: void display(unsigned char data[]);
+[v _display `(v ~T0 @X0 0 ef1`*uc ]
+"54 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"218
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 218: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"280
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 280: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"342
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 342: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"404
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 404: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"436
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 436: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 456: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 534: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 596: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 636: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 643: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 650: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 657: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"732
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 732: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"739
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 739: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"810
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 810: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"817
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 817: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"887
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 887: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"894
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 894: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"901
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 901: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"908
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 908: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"966
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 966: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1061
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1061: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1068
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1068: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1075
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1075: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1082
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1082: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1089
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1089: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1096
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1096: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1154
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1154: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1161
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1161: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1257
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1257: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1327
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1327: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1377
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1377: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1439
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1439: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1501
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1501: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1563
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1563: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1620
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1620: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1682
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1682: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1722
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1722: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1756
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1756: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1818
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1818: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1825
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1825: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1832
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1832: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2001
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2001: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2082
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2082: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2089
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2089: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2159
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2159: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2224
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2224: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2231
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2231: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2290
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2290: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2297
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2297: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2304
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2304: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2311
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2311: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2318
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2318: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2363
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2363: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"33 ./ssd.h
+[; ;./ssd.h: 33: unsigned char digits[10] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F};
+[v _digits `uc ~T0 @X0 -> 10 `i e ]
+[i _digits
+:U ..
+-> -> 63 `i `uc
+-> -> 6 `i `uc
+-> -> 91 `i `uc
+-> -> 79 `i `uc
+-> -> 102 `i `uc
+-> -> 109 `i `uc
+-> -> 125 `i `uc
+-> -> 7 `i `uc
+-> -> 127 `i `uc
+-> -> 111 `i `uc
+..
+]
+"34
+[; ;./ssd.h: 34: unsigned char ssd[4];
+[v _ssd `uc ~T0 @X0 -> 4 `i e ]
+"9 ./main.h
+[; ;./main.h: 9: unsigned int hour=0,minute=0,flag=0;
+[v _hour `ui ~T0 @X0 1 e ]
+[i _hour
+-> -> 0 `i `ui
+]
+[v _minute `ui ~T0 @X0 1 e ]
+[i _minute
+-> -> 0 `i `ui
+]
+[v _flag `ui ~T0 @X0 1 e ]
+[i _flag
+-> -> 0 `i `ui
+]
+"10
+[; ;./main.h: 10: int tmr_flag = 1, dis_flag = 1;
+[v _tmr_flag `i ~T0 @X0 1 e ]
+[i _tmr_flag
+-> 1 `i
+]
+[v _dis_flag `i ~T0 @X0 1 e ]
+[i _dis_flag
+-> 1 `i
+]
+"35 main.c
+[; ;main.c: 35:         if(dis_flag)
+[p x WDTE  =  OFF         ]
+"37
+[; ;main.c: 37:           ssd[0] = digits[hour / 10];
+[v _init_config `(v ~T0 @X0 1 sf ]
+{
+[e :U _init_config ]
+[f ]
+"39
+[; ;main.c: 39:           ssd[1] = digits[hour % 10]|0x80;
+[e ( _init_ssd ..  ]
+"41
+[; ;main.c: 41:           ssd[1] = digits[hour % 10];
+[e = _PEIE -> -> 1 `i `b ]
+"42
+[; ;main.c: 42:           ssd[2] = digits[minute / 10];
+[e = _TMR2ON -> -> 1 `i `b ]
+"43
+[; ;main.c: 43:           ssd[3] = digits[minute % 10];
+[e = _GIE -> -> 1 `i `b ]
+"44
+[; ;main.c: 44:         }
+[e :UE 95 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"46
+[; ;main.c: 46: 
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"49
+[; ;main.c: 49:          ssd[0] = digits[hour / 10];
+[e ( _init_config ..  ]
+"51
+[; ;main.c: 51: 
+[e ( _init_timer2 ..  ]
+"52
+[; ;main.c: 52: 
+[v _wait `ul ~T0 @X0 1 a ]
+[e = _wait -> -> -> 0 `i `l `ul ]
+"53
+[; ;main.c: 53:          ssd[2] = digits[minute / 10];
+[v _key `uc ~T0 @X0 1 a ]
+"54
+[; ;main.c: 54:          ssd[3] = digits[minute % 10];
+[v _sw4_flag `ui ~T0 @X0 1 a ]
+[e = _sw4_flag -> -> 0 `i `ui ]
+[v _bnk_flag `ui ~T0 @X0 1 a ]
+[e = _bnk_flag -> -> 0 `i `ui ]
+[v _sw3_flag `ui ~T0 @X0 1 a ]
+[e = _sw3_flag -> -> 0 `i `ui ]
+"56
+[; ;main.c: 56:          if(sw3_flag == 0)
+[e :U 98 ]
+"57
+[; ;main.c: 57:          {
+{
+"58
+[; ;main.c: 58:              if(wait++ == 5)
+[e = _key ( _read_digital_keypad (1 -> -> 1 `i `uc ]
+"62
+[; ;main.c: 62:              }
+[e $ ! == -> _key `i -> 55 `i 100  ]
+"63
+[; ;main.c: 63:             else
+{
+"64
+[; ;main.c: 64:             {
+[e = _sw4_flag -> -> ! != _sw4_flag -> -> 0 `i `ui `i `ui ]
+"65
+[; ;main.c: 65:               display_hour(ssd);
+[e = _TMR2ON ! != _dis_flag -> 0 `i ]
+"66
+[; ;main.c: 66:             }
+[e = _dis_flag -> ! != _dis_flag -> 0 `i `i ]
+"67
+[; ;main.c: 67:          }
+}
+[e :U 100 ]
+"68
+[; ;main.c: 68:          if(sw3_flag == 1)
+[e $ ! == -> _key `i -> 59 `i 101  ]
+"69
+[; ;main.c: 69:          {
+{
+"70
+[; ;main.c: 70:              if(wait++ == 5)
+[e = _sw3_flag -> -> ! != _sw3_flag -> -> 0 `i `ui `i `ui ]
+"71
+[; ;main.c: 71:              {
+}
+[e :U 101 ]
+"72
+[; ;main.c: 72:                  wait = 0;
+[e $ ! != _dis_flag -> 0 `i 102  ]
+"73
+[; ;main.c: 73:               display_hour(ssd);
+{
+"74
+[; ;main.c: 74:              }
+[e = *U + &U _ssd * -> -> -> 0 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digits * -> / _hour -> -> 10 `i `ui `ux -> -> # *U &U _digits `ui `ux ]
+"75
+[; ;main.c: 75:             else
+[e $ ! != _flag -> -> 0 `i `ui 103  ]
+"76
+[; ;main.c: 76:             {
+[e = *U + &U _ssd * -> -> -> 1 `i `ui `ux -> -> # *U &U _ssd `ui `ux -> | -> *U + &U _digits * -> % _hour -> -> 10 `i `ui `ux -> -> # *U &U _digits `ui `ux `i -> 128 `i `uc ]
+[e $U 104  ]
+"77
+[; ;main.c: 77:               display_mnt(ssd);
+[e :U 103 ]
+"78
+[; ;main.c: 78:             }
+[e = *U + &U _ssd * -> -> -> 1 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digits * -> % _hour -> -> 10 `i `ui `ux -> -> # *U &U _digits `ui `ux ]
+[e :U 104 ]
+"79
+[; ;main.c: 79:          }
+[e = *U + &U _ssd * -> -> -> 2 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digits * -> / _minute -> -> 10 `i `ui `ux -> -> # *U &U _digits `ui `ux ]
+"80
+[; ;main.c: 80: 
+[e = *U + &U _ssd * -> -> -> 3 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digits * -> % _minute -> -> 10 `i `ui `ux -> -> # *U &U _digits `ui `ux ]
+"81
+[; ;main.c: 81: 
+}
+[e :U 102 ]
+"84
+[; ;main.c: 84:         if((sw3_flag == 0) && sw4_flag)
+[e $ ! != _sw4_flag -> -> 0 `i `ui 105  ]
+"85
+[; ;main.c: 85:         {
+{
+"86
+[; ;main.c: 86: 
+[e = *U + &U _ssd * -> -> -> 0 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digits * -> / _hour -> -> 10 `i `ui `ux -> -> # *U &U _digits `ui `ux ]
+"87
+[; ;main.c: 87:            if(key == 0x3E)
+[e = *U + &U _ssd * -> -> -> 1 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digits * -> % _hour -> -> 10 `i `ui `ux -> -> # *U &U _digits `ui `ux ]
+"90
+[; ;main.c: 90:                 if(minute > 59)
+[e = *U + &U _ssd * -> -> -> 2 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digits * -> / _minute -> -> 10 `i `ui `ux -> -> # *U &U _digits `ui `ux ]
+"91
+[; ;main.c: 91:                 {
+[e = *U + &U _ssd * -> -> -> 3 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digits * -> % _minute -> -> 10 `i `ui `ux -> -> # *U &U _digits `ui `ux ]
+"93
+[; ;main.c: 93:                 }
+[e $ ! == _sw3_flag -> -> 0 `i `ui 106  ]
+"94
+[; ;main.c: 94:             }
+{
+"95
+[; ;main.c: 95: 
+[e $ ! == ++ _wait -> -> -> 1 `i `l `ul -> -> -> 5 `i `l `ul 107  ]
+"96
+[; ;main.c: 96:            if(key == 0x3D)
+{
+"97
+[; ;main.c: 97:             {
+[e = _wait -> -> -> 0 `i `l `ul ]
+"98
+[; ;main.c: 98: 
+[e ( _display_mnt (1 &U _ssd ]
+"99
+[; ;main.c: 99:                 if((minute == 0) && (key == 0x3D))
+}
+[e $U 108  ]
+"100
+[; ;main.c: 100:                 {
+[e :U 107 ]
+"101
+[; ;main.c: 101:                     minute = 59;
+{
+"102
+[; ;main.c: 102:                 }
+[e ( _display_hour (1 &U _ssd ]
+"103
+[; ;main.c: 103:                 else
+}
+[e :U 108 ]
+"104
+[; ;main.c: 104:                 {
+}
+[e :U 106 ]
+"105
+[; ;main.c: 105:                     minute--;
+[e $ ! == _sw3_flag -> -> 1 `i `ui 109  ]
+"106
+[; ;main.c: 106:                 }
+{
+"107
+[; ;main.c: 107:            }
+[e $ ! == ++ _wait -> -> -> 1 `i `l `ul -> -> -> 5 `i `l `ul 110  ]
+"108
+[; ;main.c: 108:         }
+{
+"109
+[; ;main.c: 109:         if((sw3_flag == 1) && sw4_flag )
+[e = _wait -> -> -> 0 `i `l `ul ]
+"110
+[; ;main.c: 110:         {
+[e ( _display_hour (1 &U _ssd ]
+"111
+[; ;main.c: 111:             if(key == 0x3E)
+}
+[e $U 111  ]
+"112
+[; ;main.c: 112:             {
+[e :U 110 ]
+"113
+[; ;main.c: 113:                 hour++;
+{
+"114
+[; ;main.c: 114:                 if(hour > 23)
+[e ( _display_mnt (1 &U _ssd ]
+"115
+[; ;main.c: 115:                 {
+}
+[e :U 111 ]
+"116
+[; ;main.c: 116:                     hour = 0;
+}
+[e :U 109 ]
+"119
+[; ;main.c: 119:             if(key == 0x3D)
+}
+[e :U 105 ]
+"121
+[; ;main.c: 121:               if((hour == 0) && (key == 0x3D))
+[e $ ! && == _sw3_flag -> -> 0 `i `ui != _sw4_flag -> -> 0 `i `ui 112  ]
+"122
+[; ;main.c: 122:                 {
+{
+"124
+[; ;main.c: 124:                 }
+[e $ ! == -> _key `i -> 62 `i 113  ]
+"125
+[; ;main.c: 125:                 else
+{
+"126
+[; ;main.c: 126:                 {
+[e ++ _minute -> -> 1 `i `ui ]
+"127
+[; ;main.c: 127:                   hour--;
+[e $ ! > _minute -> -> 59 `i `ui 114  ]
+"128
+[; ;main.c: 128:                 }
+{
+"129
+[; ;main.c: 129:             }
+[e = _minute -> -> 0 `i `ui ]
+"130
+[; ;main.c: 130:         }
+}
+[e :U 114 ]
+"131
+[; ;main.c: 131:         if(sw4_flag == 0)
+}
+[e :U 113 ]
+"133
+[; ;main.c: 133:     }
+[e $ ! == -> _key `i -> 61 `i 115  ]
+"134
+[; ;main.c: 134:     return;
+{
+"136
+[e $ ! && == _minute -> -> 0 `i `ui == -> _key `i -> 61 `i 116  ]
+"137
+{
+"138
+[e = _minute -> -> 59 `i `ui ]
+"139
+}
+[e $U 117  ]
+"140
+[e :U 116 ]
+"141
+{
+"142
+[e -- _minute -> -> 1 `i `ui ]
+"143
+}
+[e :U 117 ]
+"144
+}
+[e :U 115 ]
+"145
+}
+[e :U 112 ]
+"146
+[e $ ! && == _sw3_flag -> -> 1 `i `ui != _sw4_flag -> -> 0 `i `ui 118  ]
+"147
+{
+"148
+[e $ ! == -> _key `i -> 62 `i 119  ]
+"149
+{
+"150
+[e ++ _hour -> -> 1 `i `ui ]
+"151
+[e $ ! > _hour -> -> 23 `i `ui 120  ]
+"152
+{
+"153
+[e = _hour -> -> 0 `i `ui ]
+"154
+}
+[e :U 120 ]
+"155
+}
+[e :U 119 ]
+"156
+[e $ ! == -> _key `i -> 61 `i 121  ]
+"157
+{
+"158
+[e $ ! && == _hour -> -> 0 `i `ui == -> _key `i -> 61 `i 122  ]
+"159
+{
+"160
+[e = _hour -> -> 23 `i `ui ]
+"161
+}
+[e $U 123  ]
+"162
+[e :U 122 ]
+"163
+{
+"164
+[e -- _hour -> -> 1 `i `ui ]
+"165
+}
+[e :U 123 ]
+"166
+}
+[e :U 121 ]
+"167
+}
+[e :U 118 ]
+"168
+[e $ ! == _sw4_flag -> -> 0 `i `ui 124  ]
+"169
+[e ( _display (1 &U _ssd ]
+[e :U 124 ]
+"170
+}
+[e :U 97 ]
+[e $U 98  ]
+[e :U 99 ]
+"171
+[e $UE 96  ]
+"172
+[e :UE 96 ]
+}
