@@ -1,0 +1,77 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"3 F:\ECEP\MC\A7-BrightnessControl_Potentiometer.X\adc.c
+[v _init_adc init_adc `(v  1 e 1 0 ]
+"12
+[v _read_adc read_adc `(us  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"31 F:\ECEP\MC\A7-BrightnessControl_Potentiometer.X\main.c
+[v _glow_led glow_led `(v  1 e 1 0 ]
+"61
+[v _init_config init_config `(v  1 s 1 init_config ]
+"68
+[v _main main `(v  1 e 1 0 ]
+"340 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2395
+[v _ADFM ADFM `VEb  1 e 0 @1279 ]
+"2404
+[v _ADON ADON `VEb  1 e 0 @248 ]
+"2572
+[v _GO GO `VEb  1 e 0 @250 ]
+"2749
+[v _RD0 RD0 `VEb  1 e 0 @64 ]
+"3070
+[v _nDONE nDONE `VEb  1 e 0 @250 ]
+"68 F:\ECEP\MC\A7-BrightnessControl_Potentiometer.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"69
+[v main@adc_reg_val adc_reg_val `us  1 a 2 4 ]
+"79
+} 0
+"12 F:\ECEP\MC\A7-BrightnessControl_Potentiometer.X\adc.c
+[v _read_adc read_adc `(us  1 e 2 0 ]
+{
+"14
+[v read_adc@adc_reg_val adc_reg_val `us  1 a 2 2 ]
+"27
+} 0
+"61 F:\ECEP\MC\A7-BrightnessControl_Potentiometer.X\main.c
+[v _init_config init_config `(v  1 s 1 init_config ]
+{
+"66
+} 0
+"3 F:\ECEP\MC\A7-BrightnessControl_Potentiometer.X\adc.c
+[v _init_adc init_adc `(v  1 e 1 0 ]
+{
+"10
+} 0
+"31 F:\ECEP\MC\A7-BrightnessControl_Potentiometer.X\main.c
+[v _glow_led glow_led `(v  1 e 1 0 ]
+{
+[v glow_led@adc_reg_val adc_reg_val `us  1 p 2 0 ]
+"33
+[v glow_led@duty_cycle duty_cycle `us  1 s 2 duty_cycle ]
+"34
+[v glow_led@loop_counter loop_counter `us  1 s 2 loop_counter ]
+"35
+[v glow_led@wait wait `ui  1 s 2 wait ]
+"58
+} 0

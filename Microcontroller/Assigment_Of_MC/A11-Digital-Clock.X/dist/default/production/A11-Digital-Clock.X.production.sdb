@@ -1,0 +1,183 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"14 F:\ECEP\MC\A11-Digital-Clock.X\digital_keypad.c
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+"12 F:\ECEP\MC\A11-Digital-Clock.X\isr.c
+[v _isr isr `II(v  1 e 1 0 ]
+"37 F:\ECEP\MC\A11-Digital-Clock.X\main.c
+[v _init_config init_config `(v  1 s 1 init_config ]
+"46
+[v _main main `(v  1 e 1 0 ]
+"7 F:\ECEP\MC\A11-Digital-Clock.X\ssd.c
+[v _init_ssd init_ssd `(v  1 e 1 0 ]
+"18
+[v _display display `(v  1 e 1 0 ]
+"33
+[v _display_mnt display_mnt `(v  1 e 1 0 ]
+"48
+[v _display_hour display_hour `(v  1 e 1 0 ]
+"4 F:\ECEP\MC\A11-Digital-Clock.X\timers.c
+[v _init_timer2 init_timer2 `(v  1 e 1 0 ]
+"9 F:\ECEP\MC\A11-Digital-Clock.X/main.h
+[v _hour hour `ui  1 e 2 0 ]
+[v _minute minute `ui  1 e 2 0 ]
+[v _flag flag `ui  1 e 2 0 ]
+"10
+[v _dis_flag dis_flag `i  1 e 2 0 ]
+"33 F:\ECEP\MC\A11-Digital-Clock.X/ssd.h
+[v _digits digits `[10]uc  1 e 10 0 ]
+"34
+[v _ssd ssd `[4]uc  1 e 4 0 ]
+"166 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"216
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1816
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"2569
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2629
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2872
+[v _T2CKPS0 T2CKPS0 `VEb  1 e 0 @144 ]
+"2875
+[v _T2CKPS1 T2CKPS1 `VEb  1 e 0 @145 ]
+"2896
+[v _TMR2IE TMR2IE `VEb  1 e 0 @1121 ]
+"2899
+[v _TMR2IF TMR2IF `VEb  1 e 0 @97 ]
+"2902
+[v _TMR2ON TMR2ON `VEb  1 e 0 @146 ]
+"46 F:\ECEP\MC\A11-Digital-Clock.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"52
+[v main@wait wait `ul  1 a 4 9 ]
+"54
+[v main@sw3_flag sw3_flag `ui  1 a 2 15 ]
+[v main@sw4_flag sw4_flag `ui  1 a 2 13 ]
+"53
+[v main@key key `uc  1 a 1 17 ]
+"172
+} 0
+"14 F:\ECEP\MC\A11-Digital-Clock.X\digital_keypad.c
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+{
+[v read_digital_keypad@mode mode `uc  1 a 1 wreg ]
+[v read_digital_keypad@mode mode `uc  1 a 1 wreg ]
+"16
+[v read_digital_keypad@once once `uc  1 s 1 once ]
+"18
+[v read_digital_keypad@mode mode `uc  1 a 1 5 ]
+"37
+} 0
+"4 F:\ECEP\MC\A11-Digital-Clock.X\timers.c
+[v _init_timer2 init_timer2 `(v  1 e 1 0 ]
+{
+"14
+} 0
+"37 F:\ECEP\MC\A11-Digital-Clock.X\main.c
+[v _init_config init_config `(v  1 s 1 init_config ]
+{
+"44
+} 0
+"7 F:\ECEP\MC\A11-Digital-Clock.X\ssd.c
+[v _init_ssd init_ssd `(v  1 e 1 0 ]
+{
+"16
+} 0
+"33
+[v _display_mnt display_mnt `(v  1 e 1 0 ]
+{
+[v display_mnt@data data `*.4uc  1 a 1 wreg ]
+"44
+[v display_mnt@wait wait `ui  1 a 2 0 ]
+"35
+[v display_mnt@digit digit `uc  1 a 1 3 ]
+"33
+[v display_mnt@data data `*.4uc  1 a 1 wreg ]
+"37
+[v display_mnt@data data `*.4uc  1 a 1 2 ]
+"47
+} 0
+"48
+[v _display_hour display_hour `(v  1 e 1 0 ]
+{
+[v display_hour@data data `*.4uc  1 a 1 wreg ]
+"59
+[v display_hour@wait wait `ui  1 a 2 0 ]
+"50
+[v display_hour@digit digit `uc  1 a 1 3 ]
+"48
+[v display_hour@data data `*.4uc  1 a 1 wreg ]
+"52
+[v display_hour@data data `*.4uc  1 a 1 2 ]
+"62
+} 0
+"18
+[v _display display `(v  1 e 1 0 ]
+{
+[v display@data data `*.4uc  1 a 1 wreg ]
+"29
+[v display@wait wait `ui  1 a 2 0 ]
+"20
+[v display@digit digit `uc  1 a 1 3 ]
+"18
+[v display@data data `*.4uc  1 a 1 wreg ]
+"22
+[v display@data data `*.4uc  1 a 1 2 ]
+"32
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"12 F:\ECEP\MC\A11-Digital-Clock.X\isr.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"14
+[v isr@count1 count1 `ul  1 s 4 count1 ]
+[v isr@count2 count2 `ul  1 s 4 count2 ]
+"39
+} 0

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/F:/ECEP/MC/A32-Dymanic_scrolling_CLCD_UART.X/main.c</file>
+            <file>file:/F:/ECEP/MC/A32-Dymanic_scrolling_CLCD_UART.X/uart.c</file>
+            <file>file:/F:/ECEP/MC/A32-Dymanic_scrolling_CLCD_UART.X/isr.c</file>
+            <file>file:/F:/ECEP/MC/A32-Dymanic_scrolling_CLCD_UART.X/uart.h</file>
+            <file>file:/F:/ECEP/MC/A32-Dymanic_scrolling_CLCD_UART.X/digital_keypad.c</file>
+            <file>file:/F:/ECEP/MC/A32-Dymanic_scrolling_CLCD_UART.X/digital_keypad.h</file>
+            <file>file:/F:/ECEP/MC/A32-Dymanic_scrolling_CLCD_UART.X/clcd.c</file>
+        </group>
+    </open-files>
+</project-private>
