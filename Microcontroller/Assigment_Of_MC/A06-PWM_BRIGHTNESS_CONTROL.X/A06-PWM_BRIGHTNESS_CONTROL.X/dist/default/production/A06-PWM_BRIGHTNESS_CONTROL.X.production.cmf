@@ -1,0 +1,425 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+cinit CODE 0 F F 22 2 1
+text1 CODE 0 31 31 A6 2 1
+text2 CODE 0 12D 12D 30 2 1
+text3 CODE 0 188 188 12 2 1
+text4 CODE 0 19A 19A A 2 1
+text5 CODE 0 1B4 1B4 6 2 1
+text6 CODE 0 D7 D7 56 2 1
+idataCOMMON CODE 0 1BA 1BA 1 2 1
+maintext CODE 0 15D 15D 18 2 1
+cstackCOMMON COMMON 1 70 70 9 1 1
+cstackBANK0 BANK0 1 38 38 1 1 1
+inittext CODE 0 175 175 13 2 1
+intentry CODE 0 4 4 8 2 1
+bssBANK0 BANK0 1 20 20 10 1 1
+idataBANK0 CODE 0 1A4 1A4 8 2 1
+dataBANK0 BANK0 1 30 30 8 1 1
+dataCOMMON COMMON 1 7B 7B 1 1 1
+clrtext CODE 0 1AC 1AC 8 2 1
+bssCOMMON COMMON 1 79 79 2 1 1
+config CONFIG 4 2007 2007 1 2 1
+$C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.o
+reset_vec CODE 0 0 0 3 2 1
+end_init CODE 0 C C 3 2 1
+config CONFIG 4 2007 2007 1 2 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 39-6F 1
+RAM A0-EF 1
+RAM 110-16F 1
+RAM 190-1EF 1
+BANK0 39-6F 1
+BANK1 A0-EF 1
+BANK2 110-16F 1
+BANK3 190-1EF 1
+CONST 3-3 2
+CONST 1BB-1FFF 2
+ENTRY 3-3 2
+ENTRY 1BB-1FFF 2
+IDLOC 2000-2003 2
+CODE 3-3 2
+CODE 1BB-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-10F 1
+SFR3 180-18F 1
+COMMON 7C-7D 1
+EEDATA 2100-21FF 2
+STRCODE 3-3 2
+STRCODE 1BB-1FFF 2
+STRING 3-3 2
+STRING 1BB-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+F cinit CODE >766:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+F cinit CODE >769:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+F cinit CODE >845:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+10 cinit CODE >846:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+11 cinit CODE >847:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+12 cinit CODE >848:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+13 cinit CODE >849:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+14 cinit CODE >850:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+15 cinit CODE >851:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+16 cinit CODE >852:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+17 cinit CODE >853:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+18 cinit CODE >854:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+1D cinit CODE >858:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+22 cinit CODE >859:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+23 cinit CODE >878:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+24 cinit CODE >879:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+25 cinit CODE >880:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+26 cinit CODE >881:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+2B cinit CODE >884:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+2C cinit CODE >885:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+2D cinit CODE >891:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+2D cinit CODE >893:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+2E cinit CODE >894:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+4 intentry CODE >3:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+D7 text6 CODE >3:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+D7 text6 CODE >7:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+DB text6 CODE >9:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+E0 text6 CODE >10:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+E3 text6 CODE >10:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+E7 text6 CODE >10:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+EB text6 CODE >10:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+F1 text6 CODE >10:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+F9 text6 CODE >12:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+103 text6 CODE >13:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+106 text6 CODE >13:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+10A text6 CODE >13:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+10E text6 CODE >13:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+11A text6 CODE >15:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+124 text6 CODE >16:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+125 text6 CODE >20:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+126 text6 CODE >22:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\isr.c
+1B4 text5 CODE >5:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\digital_keypad.c
+1B4 text5 CODE >8:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\digital_keypad.c
+1B9 text5 CODE >9:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\digital_keypad.c
+19A text4 CODE >3:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\timers.c
+19A text4 CODE >6:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\timers.c
+19D text4 CODE >9:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\timers.c
+19E text4 CODE >11:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\timers.c
+1A2 text4 CODE >14:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\timers.c
+1A3 text4 CODE >15:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\timers.c
+188 text3 CODE >74:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+188 text3 CODE >76:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+18B text3 CODE >77:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+18E text3 CODE >79:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+193 text3 CODE >80:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+198 text3 CODE >83:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+199 text3 CODE >84:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+12D text2 CODE >11:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\digital_keypad.c
+12E text2 CODE >15:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\digital_keypad.c
+133 text2 CODE >18:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\digital_keypad.c
+138 text2 CODE >22:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\digital_keypad.c
+13A text2 CODE >22:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\digital_keypad.c
+13E text2 CODE >23:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\digital_keypad.c
+14E text2 CODE >25:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\digital_keypad.c
+150 text2 CODE >30:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\digital_keypad.c
+159 text2 CODE >32:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\digital_keypad.c
+15B text2 CODE >37:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\digital_keypad.c
+15C text2 CODE >38:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\digital_keypad.c
+31 text1 CODE >29:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+31 text1 CODE >32:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+31 text1 CODE >36:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+35 text1 CODE >38:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+3F text1 CODE >41:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+46 text1 CODE >43:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+53 text1 CODE >43:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+59 text1 CODE >43:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+5F text1 CODE >43:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+65 text1 CODE >43:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+68 text1 CODE >43:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+6B text1 CODE >43:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+72 text1 CODE >46:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+7C text1 CODE >48:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+82 text1 CODE >51:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+8A text1 CODE >53:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+8B text1 CODE >57:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+8B text1 CODE >59:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+8F text1 CODE >59:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+93 text1 CODE >59:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+97 text1 CODE >59:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+9B text1 CODE >59:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+9F text1 CODE >61:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+A0 text1 CODE >62:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+A1 text1 CODE >63:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+A3 text1 CODE >63:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+A7 text1 CODE >63:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+AB text1 CODE >63:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+AF text1 CODE >63:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+B3 text1 CODE >65:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+B4 text1 CODE >67:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+B7 text1 CODE >67:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+BB text1 CODE >67:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+BF text1 CODE >67:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+CB text1 CODE >69:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+15D maintext CODE >85:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+15D maintext CODE >86:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+162 maintext CODE >89:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+162 maintext CODE >91:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+16B maintext CODE >92:F:\ECEP\MC\A06-PWM_BRIGHTNESS_CONTROL.X\A06-PWM_BRIGHTNESS_CONTROL.X\main.c
+1AC clrtext CODE >865:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+1AC clrtext CODE >866:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+1AD clrtext CODE >867:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+1AD clrtext CODE >868:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+1AE clrtext CODE >869:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+1AF clrtext CODE >870:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+1B0 clrtext CODE >871:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+1B1 clrtext CODE >872:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+1B2 clrtext CODE >873:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+1B3 clrtext CODE >874:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+175 inittext CODE >819:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+175 inittext CODE >820:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+176 inittext CODE >821:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+177 inittext CODE >822:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+178 inittext CODE >823:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+179 inittext CODE >830:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+179 inittext CODE >831:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+17E inittext CODE >832:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+17F inittext CODE >833:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+180 inittext CODE >834:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+181 inittext CODE >835:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+182 inittext CODE >836:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+183 inittext CODE >837:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+184 inittext CODE >838:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+185 inittext CODE >839:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+186 inittext CODE >840:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+187 inittext CODE >841:C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+__Hspace_0 1BB 0 ABS 0 - -
+__Hspace_1 7C 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 400F 0 ABS 0 - -
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+software_pwm@duty_cycle 30 0 BANK0 1 dataBANK0 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__Hstrings 0 0 ABS 0 strings -
+_T0CS 40D 0 ABS 0 - dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+_TMR0 1 0 ABS 0 - dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.o
+_main 2BA 0 CODE 0 maintext dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+start 18 0 CODE 0 init C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.o
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+software_pwm@key 78 0 COMMON 1 cstackCOMMON dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__end_of_init_digital_keypad 374 0 CODE 0 text5 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+__HdataCOMMON 0 0 ABS 0 dataCOMMON -
+read_digital_keypad@mode 73 0 COMMON 1 cstackCOMMON dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+read_digital_keypad@once 7B 0 COMMON 1 dataCOMMON dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.o
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+_software_pwm 62 0 CODE 0 text1 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+__Hclrtext 0 0 ABS 0 clrtext -
+__pidataCOMMON 374 0 CODE 0 idataCOMMON dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__LdataCOMMON 0 0 ABS 0 dataCOMMON -
+main@key 38 0 BANK0 1 cstackBANK0 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+___stackhi 0 0 ABS 0 - C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.o
+___stacklo 0 0 ABS 0 - C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.o
+_init_config 310 0 CODE 0 text3 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__LidataCOMMON 0 0 ABS 0 idataCOMMON -
+__end_of_software_pwm 1AE 0 CODE 0 text1 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+start_initialization 1E 0 CODE 0 cinit dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+clear_ram0 358 0 CODE 0 clrtext dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__pcstackBANK0 38 0 BANK0 1 cstackBANK0 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+_TMR0IE 5D 0 ABS 0 - dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+_TMR0IF 5A 0 ABS 0 - dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.o
+_read_digital_keypad 25A 0 CODE 0 text2 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hcinit 62 0 CODE 0 cinit -
+__Hstack 0 0 STACK 2 stack -
+__Hmaintext 0 0 ABS 0 maintext -
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 4010 0 CONFIG 4 config -
+_init_timer0 334 0 CODE 0 text4 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+software_pwm@wait 28 0 BANK0 1 bssBANK0 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lcinit 1E 0 CODE 0 cinit -
+__Lstack 0 0 STACK 2 stack -
+__Linittext 0 0 ABS 0 inittext -
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 18 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 18 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Ltext 0 0 ABS 0 text -
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_GIE 5F 0 ABS 0 - dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+_PSA 40B 0 ABS 0 - dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+_RD0 40 0 ABS 0 - dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__S0 1BB 0 ABS 0 - -
+__S1 7C 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+_isr 1AE 0 CODE 0 text6 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+saved_w 7E 0 ABS 0 - dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__HidataCOMMON 0 0 ABS 0 idataCOMMON -
+__end_of_isr 25A 0 CODE 0 text6 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__Lintentry 8 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec C:\Users\WROST^~1\AppData\Local\Temp\xcAs3mc.o
+__pdataBANK0 30 0 BANK0 1 dataBANK0 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+isr@count1 24 0 BANK0 1 bssBANK0 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+isr@count2 20 0 BANK0 1 bssBANK0 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__end_of_read_digital_keypad 2BA 0 CODE 0 text2 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__pmaintext 2BA 0 CODE 0 maintext dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+__Hinittext 0 0 ABS 0 inittext -
+__end_of_init_config 334 0 CODE 0 text3 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__pbssCOMMON 79 0 COMMON 1 bssCOMMON dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+init_fetch0 2EA 0 CODE 0 inittext dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__Lend_init 18 0 CODE 0 end_init -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+software_pwm@loop_counter 2C 0 BANK0 1 bssBANK0 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+end_of_initialization 5A 0 CODE 0 cinit dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__Hintentry 18 0 CODE 0 intentry -
+__Lstrings 0 0 ABS 0 strings -
+__Hreset_vec 6 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__ptext1 62 0 CODE 0 text1 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__ptext2 25A 0 CODE 0 text2 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__ptext3 310 0 CODE 0 text3 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__ptext4 334 0 CODE 0 text4 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__ptext5 368 0 CODE 0 text5 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__ptext6 1AE 0 CODE 0 text6 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__end_of_init_timer0 348 0 CODE 0 text4 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__end_of__initialization 5A 0 CODE 0 cinit dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+__pidataBANK0 348 0 CODE 0 idataBANK0 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__Hend_init 1E 0 CODE 0 end_init -
+init_ram0 2F2 0 CODE 0 inittext dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+_init_digital_keypad 368 0 CODE 0 text5 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__end_of_main 2EA 0 CODE 0 maintext dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+_PORTB 6 0 ABS 0 - dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+_PORTD 8 0 ABS 0 - dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+_TRISB 86 0 ABS 0 - dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+_TRISD 88 0 ABS 0 - dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_count 79 0 COMMON 1 bssCOMMON dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+interrupt_function 8 0 CODE 0 intentry dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__pintentry 8 0 CODE 0 intentry dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__initialization 1E 0 CODE 0 cinit dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__pbssBANK0 20 0 BANK0 1 bssBANK0 dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+__pdataCOMMON 7B 0 COMMON 1 dataCOMMON dist/default/production\A06-PWM_BRIGHTNESS_CONTROL.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cstackCOMMON 1 70 70 C 1
+intentry 0 4 8 1B7 2
+reset_vec 0 0 0 3 2
+bssBANK0 1 20 20 19 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES

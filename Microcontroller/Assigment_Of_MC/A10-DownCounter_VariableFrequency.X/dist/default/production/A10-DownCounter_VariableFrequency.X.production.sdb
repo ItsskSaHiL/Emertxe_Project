@@ -1,0 +1,121 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"3 F:\ECEP\MC\A10-DownCounter_VariableFrequency.X\adc.c
+[v _init_adc init_adc `(v  1 e 1 0 ]
+"12
+[v _read_adc read_adc `(us  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"29 F:\ECEP\MC\A10-DownCounter_VariableFrequency.X\main.c
+[v _init_config init_config `(v  1 s 1 init_config ]
+"35
+[v _main main `(v  1 e 1 0 ]
+"11 F:\ECEP\MC\A10-DownCounter_VariableFrequency.X\ssd.c
+[v _init_ssd init_ssd `(v  1 e 1 0 ]
+"23
+[v _display display `(v  1 e 1 0 ]
+"166 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2395
+[v _ADFM ADFM `VEb  1 e 0 @1279 ]
+"2404
+[v _ADON ADON `VEb  1 e 0 @248 ]
+"2572
+[v _GO GO `VEb  1 e 0 @250 ]
+"3070
+[v _nDONE nDONE `VEb  1 e 0 @250 ]
+"35 F:\ECEP\MC\A10-DownCounter_VariableFrequency.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"40
+[v main@digit digit `[10]uc  1 a 10 4 ]
+"37
+[v main@ssd ssd `[4]uc  1 a 4 16 ]
+"42
+[v main@count count `ui  1 a 2 20 ]
+[v main@delay delay `ui  1 a 2 14 ]
+"37
+[v main@F858 F858 `[10]uc  1 s 10 F858 ]
+"72
+} 0
+"12 F:\ECEP\MC\A10-DownCounter_VariableFrequency.X\adc.c
+[v _read_adc read_adc `(us  1 e 2 0 ]
+{
+"14
+[v read_adc@adc_reg_val adc_reg_val `us  1 a 2 2 ]
+"27
+} 0
+"29 F:\ECEP\MC\A10-DownCounter_VariableFrequency.X\main.c
+[v _init_config init_config `(v  1 s 1 init_config ]
+{
+"33
+} 0
+"11 F:\ECEP\MC\A10-DownCounter_VariableFrequency.X\ssd.c
+[v _init_ssd init_ssd `(v  1 e 1 0 ]
+{
+"21
+} 0
+"3 F:\ECEP\MC\A10-DownCounter_VariableFrequency.X\adc.c
+[v _init_adc init_adc `(v  1 e 1 0 ]
+{
+"10
+} 0
+"23 F:\ECEP\MC\A10-DownCounter_VariableFrequency.X\ssd.c
+[v _display display `(v  1 e 1 0 ]
+{
+[v display@data data `*.4uc  1 a 1 wreg ]
+"32
+[v display@wait wait `ul  1 a 4 4 ]
+"25
+[v display@digit digit `uc  1 a 1 9 ]
+"23
+[v display@data data `*.4uc  1 a 1 wreg ]
+"27
+[v display@data data `*.4uc  1 a 1 8 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 11 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 13 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 6 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 8 ]
+"30
+} 0

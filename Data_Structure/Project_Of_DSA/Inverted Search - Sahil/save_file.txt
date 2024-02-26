@@ -1,0 +1,44 @@
+#[0] :
+ [all] : [1] : [file1.txt] : [2] #
+  [are] : [1] : [file1.txt] : [1] #
+  [and] : [1] : [file2.txt] : [1] #
+ #[1] :
+ [bello] : [1] : [file1.txt] : [1] #
+  [bye] : [1] : [file1.txt] : [1] #
+  [by] : [1] : [file2.txt] : [1] #
+ #[3] :
+ [do] : [1] : [file2.txt] : [1] #
+ #[7] :
+ [hii] : [1] : [file1.txt] : [1] #
+  [helllo] : [1] : [file1.txt] : [1] #
+  [hi] : [1] : [file1.txt] : [1] #
+  [how] : [1] : [file1.txt] : [1] #
+ #[8] :
+ [it] : [1] : [file2.txt] : [1] #
+  [inverted] : [1] : [file2.txt] : [1] #
+  [i] : [1] : [file2.txt] : [1] #
+ #[9] :
+ [job] : [1] : [file2.txt] : [1] #
+ #[12] :
+ [my] : [1] : [file2.txt] : [1] #
+ #[13] :
+ [nesse] : [1] : [file2.txt] : [1] #
+ #[14] :
+ [of] : [1] : [file2.txt] : [1] #
+ #[15] :
+ [project] : [1] : [file2.txt] : [1] #
+ #[18] :
+ [search] : [1] : [file2.txt] : [1] #
+  [Sahil] : [1] : [file2.txt] : [1] #
+ #[19] :
+ [the] : [1] : [file2.txt] : [1] #
+ #[24] :
+ [you] : [1] : [file1.txt] : [2] #
+ #[25] :
+ [zi] : [1] : [file1.txt] : [1] #
+ #[26] :
+ [?] : [1] : [file1.txt] : [2] #
+  [>] : [1] : [file1.txt] : [1] #
+  [{}] : [1] : [file1.txt] : [1] #
+  [[]] : [1] : [file1.txt] : [1] #
+ 

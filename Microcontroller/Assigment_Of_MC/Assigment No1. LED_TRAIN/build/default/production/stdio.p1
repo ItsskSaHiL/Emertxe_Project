@@ -1,0 +1,25 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"11 stdio.c
+[; ;stdio.c: 11: }
+[p x WDTE  =  OFF  ]
+[v $root$_main `(v ~T0 @X0 0 e ]
+"16
+[v _main `(v ~T0 @X0 1 ef ]
+"17
+{
+[e :U _main ]
+[f ]
+"19
+[v _PORTB `*uc ~T0 @X0 1 a ]
+[e = _PORTB -> -> 6 `i `*uc ]
+"20
+[v _TRISB `*uc ~T0 @X0 1 a ]
+[e = _TRISB -> -> 134 `i `*uc ]
+"21
+[e = *U _PORTB -> -> 255 `i `uc ]
+"22
+[e = *U _TRISB -> -> 0 `i `uc ]
+"24
+[e :UE 2 ]
+}
