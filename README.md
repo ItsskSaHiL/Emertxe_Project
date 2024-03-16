@@ -1,27 +1,26 @@
-# Emertxe_Project
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub README</title>
+  <title>ReadMe 🐼 </title>
 </head>
 <body>
   <header>
-    <h1>Project Name</h1>
-    <p>A brief description of your project.</p>
+    <h1>Emertxe Project 🧑‍💻</h1>
+    <p>The Emertxe Project is an integrated learning initiative aimed at providing comprehensive training in C and C++ programming languages, as well as delving into the development of device drivers for various serial communication peripherals. Additionally, the project emphasizes learning about Linux and its internals, thereby offering a holistic understanding of embedded systems development.</p>
   </header>
 
   <section>
-    <h2>Installation</h2>
-    <p>Instructions on how to install and set up your project.</p>
-    <pre><code>npm install your-package</code></pre>
+    <h2>Clone</h2>
+    <p>Instructions on how clone My Project - </p>
+    <pre><code>git clone git@github.com:ItsskSaHiL/Emertxe_Project.git</code></pre>
   </section>
 
   <section>
     <h2>Usage</h2>
-    <p>Examples on how to use your project.</p>
-    <pre><code>const yourPackage = require('your-package');</code></pre>
+    <p>Examples on how to use My project.</p>
+    <pre><code>Understand the code and make your own logic.</code></pre>
   </section>
 
   <section>
@@ -35,13 +34,8 @@
     </ul>
   </section>
 
-  <section>
-    <h2>License</h2>
-    <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
-  </section>
-
   <footer>
-    <p>Copyright © 2024 Your Name</p>
+    <p>Copyright © 2024 Sk Sahil</p>
   </footer>
 </body>
 </html>
